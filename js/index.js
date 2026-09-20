@@ -31,6 +31,7 @@ function getScrollAmount() {
 function getInitialPosition() {
   return getScrollAmount() * totalCards;
 }
+
 track.scrollLeft = getInitialPosition();
 
 function handleInfiniteScroll() {
